@@ -1,6 +1,6 @@
-1 | A zombie virus breaks out! You go to your garage and see your car and bike. | 2 | 3
-2 | You take your car and spot your neighbor a couple of blocks ahead. | 4 | 5
-3 | You go through the woods. | 5 | 6
+1 | You wake up in a forest clearing. There are two paths. | 2 | 3
+2 | You follow the path to the left and encounter a river. | 4 | 5
+3 | You go right and find an old cabin. | 5 | 6
 4 | You swim across the river and find a treasure chest. | -1 | -1
 5 | You find a hidden passageway that leads to a secret room. | 7 | -1
 6 | The cabin is empty. You find a trapdoor leading downwards. | -1
