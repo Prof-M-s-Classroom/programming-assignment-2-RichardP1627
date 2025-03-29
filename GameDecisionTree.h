@@ -12,6 +12,17 @@ template <typename T>
 class GameDecisionTree {
 private:
     Node<T> *root;
+    int playerChoice;
+    // std::vector<bool> isDeleted;
+
+
+    void clear(Node<Story>* node) {
+        if (node != nullptr) {
+            clear(node->left);
+            clear(node->right);
+            delete node;
+        }
+    }
 
 public:
     //Node<T> *root;
@@ -72,12 +83,35 @@ public:
             std::cout << "Story Not Loaded" << std::endl;
             return;
         }
-        Node<Story> *currNode = root;
-        std::cout << currNode -> data.description << "Which path do you choose" <<
+        playGameRecursive(root);
+        cout << "Congratulations! You have completed the game! You can play again with different choices!" << endl;
     }
+    void playGameRecursive(Node<Story> *currNode) {
+        std::cout << currNode -> data.description << std::endl;
+        std::cout << "Enter your choice: " << std::endl;
+        std::cin >> playerChoice;
+        if (playerChoice == -1) {
+            return;
+        }
+        else if (playerChoice != currNode -> left -> data.leftEventNumber && playerChoice != currNode -> right -> data.rightEventNumber) {
+            cout << "Please enter one of the two choices!";
+            playGameRecursive(currNode);
+            return;
+        }
+        else {
+            if (playerChoice == currNode -> left -> data.eventNumber) {
+                currNode = currNode -> left;
+            }
+            else {
+                currNode = currNode -> right;
+            }
+            playGameRecursive(currNode);
+        }
 
-    void playGameHelper(Node<Story> *currNode) {
-
+    }
+    //destructor
+    ~GameDecisionTree() {
+        clear(root);
     }
 };
 
