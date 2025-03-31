@@ -1,0 +1,20 @@
+1 | A zombie virus breaks out! You go to your garage and see your car and bike. Choose (2) for car or (3) for bike. | 2 | 3
+2 | You take your car and spot your neighbor a couple of blocks ahead. Choose (4) to take him or (5) to leave him. | 4 | 5
+3 | You take your bike and go to the park. You see your friend. Choose (6) to leave him or (7) to take him. | 6 | 7
+4 | You take your neighbor and find out he's been infected! He attacks you. Choose (8) to fight back or (9) to run | 8 | 9
+5 | You leave your neighbor and drive away. Choose (10) to take the freeway or (11) to go to the train station  | 10 | 11
+6 | You choose to leave your friend which he sees as betrayal. He stabs you and takes your bike. You die... Enter (-1) to end game. | -1 | -1
+7 | You take your friend and you guys go to loot a walmart. You get surrounded by zombies! Choose (12) to sacrifice your friend and run or (13) to fight together. | 12 | 13
+8 | You thought you could beat a zombie? You die... Enter (-1) to end game. | -1 | -1
+9 | You bolt out of your car to and find a cave. Choose (14) to leave or (15) to enter. | 14 | 15
+10 | You take the freeway until you exit at a beach. You see a cave. Choose (15) to stop and enter or (16) to keep driving. | 15 | 16
+11 | You get to the train station and get on the train. Choose (17) to get in the last car or (18) to get in the first car. | 17 | 18
+12 | You sacrifice your friend and make a run for it. However, you trip and pass out after hitting your head. You die... Enter (-1) to end game. | -1 | -1
+13 | You fight together and are able to create a gap to escape. You both make it out and find a hospital to enter. Choose (19) to enter or (20) to keep running. | 19 | 20
+14 | You choose not the enter the cave but get surrounded by zombies. You die... Enter (-1) to end game. | -1 | -1
+15 | You enter the cave and find a plant which reverses the process of zombification. You save the world! Enter (-1) to end game. | -1 | -1
+16 | You get back on the freeway and keep driving but you run out of gas. With nothing to eat or drink, you die... Enter (-1) to end game. | -1 | -1
+17 | You get in the last car, but it isn't connected to the head of the train. You don't realize until zombies have already entered the station. You die... Enter (-1) to end game. | -1 | -1
+18 | You get in the first car as the train leaves the station. You stay on the train until the virus ceases to exist. You have survived! Enter (-1) to end game. | -1 | -1
+19 | You enter the hospital and find many other survivors. You all make a community to survive and are able to outlive the virus. You have survived! Enter (-1) to end game. | -1 | -1
+20 | You both ignore the hospital and keep running. However, you are unable to find supplies and eventually both succumb to your injuries from battle. You both die... | -1 | -1
