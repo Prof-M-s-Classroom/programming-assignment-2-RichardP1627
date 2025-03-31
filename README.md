@@ -83,13 +83,15 @@ Example:
 
 ## **7. Sample Output & Walkthrough**
 (Provide an example of how the game runs, including player input.)
-The game will start by reading the data in the root node and displaying the description to the user. It will also present the options (2) and (3), which the user can choose.
-The user inputs the value '2' and the game reads and displays the description in the node with the event number of 2. The user is then presented with
-description of the node and the options (4) and (5). The user inputs the value of '4' and the program goes down the node that holds the event number of 4. The user is then
-finally presented with description of the node and the options (8) and (9). The user inputs the value '8' and the game goes down to the node that
-has the event number of 8. The program displays the description of this node which is a leaf node, and tells the user to input the value of '-1' to
-end the game. Once the user enters this value. The program exits the recursive function, and finally displays the final message that tells them they
-completed the game and that they can play again.
+A zombie virus breaks out! You go to your garage and see your car and bike. Choose (2) for car or (3) for bike.
+Enter your choice: 2
+You take your car and spot your neighbor a couple of blocks ahead. Choose (4) to take him or (5) to leave him.
+Enter your choice: 4
+You take your neighbor and find out he's been infected! He attacks you. Choose (8) to fight back or (9) to run.
+Enter your choice: 8
+You thought you could beat a zombie? You die... Enter (-1) to end game.
+Enter your choice: -1
+You have completed the game! You can play again with different choices!
 
 ---
 

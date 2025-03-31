@@ -1,7 +1,7 @@
 1 | A zombie virus breaks out! You go to your garage and see your car and bike. Choose (2) for car or (3) for bike. | 2 | 3
 2 | You take your car and spot your neighbor a couple of blocks ahead. Choose (4) to take him or (5) to leave him. | 4 | 5
 3 | You take your bike and go to the park. You see your friend. Choose (6) to leave him or (7) to take him. | 6 | 7
-4 | You take your neighbor and find out he's been infected! He attacks you. Choose (8) to fight back or (9) to run | 8 | 9
+4 | You take your neighbor and find out he's been infected! He attacks you. Choose (8) to fight back or (9) to run. | 8 | 9
 5 | You leave your neighbor and drive away. Choose (10) to take the freeway or (11) to go to the train station  | 10 | 11
 6 | You choose to leave your friend which he sees as betrayal. He stabs you and takes your bike. You die... Enter (-1) to end game. | -1 | -1
 7 | You take your friend and you guys go to loot a walmart. You get surrounded by zombies! Choose (12) to sacrifice your friend and run or (13) to fight together. | 12 | 13
