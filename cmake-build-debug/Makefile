@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/richardpak/CLionProjects/test
+CMAKE_SOURCE_DIR = /Users/richardpak/CLionProjects/programmingassignment2RichardP1627
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/richardpak/CLionProjects/test/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/richardpak/CLionProjects/test/cmake-build-debug/CMakeFiles /Users/richardpak/CLionProjects/test/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug/CMakeFiles /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/richardpak/CLionProjects/test/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,30 @@ CS210PA2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS210PA2.dir/build.make CMakeFiles/CS210PA2.dir/build
 .PHONY : CS210PA2/fast
 
+Pak_RichardPak/main.o: Pak_RichardPak/main.cpp.o
+.PHONY : Pak_RichardPak/main.o
+
+# target to build an object file
+Pak_RichardPak/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS210PA2.dir/build.make CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o
+.PHONY : Pak_RichardPak/main.cpp.o
+
+Pak_RichardPak/main.i: Pak_RichardPak/main.cpp.i
+.PHONY : Pak_RichardPak/main.i
+
+# target to preprocess a source file
+Pak_RichardPak/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS210PA2.dir/build.make CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.i
+.PHONY : Pak_RichardPak/main.cpp.i
+
+Pak_RichardPak/main.s: Pak_RichardPak/main.cpp.s
+.PHONY : Pak_RichardPak/main.s
+
+# target to generate assembly for a file
+Pak_RichardPak/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS210PA2.dir/build.make CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.s
+.PHONY : Pak_RichardPak/main.cpp.s
+
 Story.o: Story.cpp.o
 .PHONY : Story.o
 
@@ -153,30 +177,6 @@ Story.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS210PA2.dir/build.make CMakeFiles/CS210PA2.dir/Story.cpp.s
 .PHONY : Story.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS210PA2.dir/build.make CMakeFiles/CS210PA2.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS210PA2.dir/build.make CMakeFiles/CS210PA2.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS210PA2.dir/build.make CMakeFiles/CS210PA2.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CS210PA2"
+	@echo "... Pak_RichardPak/main.o"
+	@echo "... Pak_RichardPak/main.i"
+	@echo "... Pak_RichardPak/main.s"
 	@echo "... Story.o"
 	@echo "... Story.i"
 	@echo "... Story.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

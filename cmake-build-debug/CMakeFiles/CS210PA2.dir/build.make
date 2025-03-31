@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/richardpak/CLionProjects/test
+CMAKE_SOURCE_DIR = /Users/richardpak/CLionProjects/programmingassignment2RichardP1627
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/richardpak/CLionProjects/test/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CS210PA2.dir/depend.make
@@ -69,47 +69,47 @@ include CMakeFiles/CS210PA2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CS210PA2.dir/flags.make
 
-CMakeFiles/CS210PA2.dir/main.cpp.o: CMakeFiles/CS210PA2.dir/flags.make
-CMakeFiles/CS210PA2.dir/main.cpp.o: /Users/richardpak/CLionProjects/test/main.cpp
-CMakeFiles/CS210PA2.dir/main.cpp.o: CMakeFiles/CS210PA2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/richardpak/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS210PA2.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CS210PA2.dir/main.cpp.o -MF CMakeFiles/CS210PA2.dir/main.cpp.o.d -o CMakeFiles/CS210PA2.dir/main.cpp.o -c /Users/richardpak/CLionProjects/test/main.cpp
+CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o: CMakeFiles/CS210PA2.dir/flags.make
+CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o: /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/Pak_RichardPak/main.cpp
+CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o: CMakeFiles/CS210PA2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o -MF CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o.d -o CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o -c /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/Pak_RichardPak/main.cpp
 
-CMakeFiles/CS210PA2.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CS210PA2.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/richardpak/CLionProjects/test/main.cpp > CMakeFiles/CS210PA2.dir/main.cpp.i
+CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/Pak_RichardPak/main.cpp > CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.i
 
-CMakeFiles/CS210PA2.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CS210PA2.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/richardpak/CLionProjects/test/main.cpp -o CMakeFiles/CS210PA2.dir/main.cpp.s
+CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/Pak_RichardPak/main.cpp -o CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.s
 
 CMakeFiles/CS210PA2.dir/Story.cpp.o: CMakeFiles/CS210PA2.dir/flags.make
-CMakeFiles/CS210PA2.dir/Story.cpp.o: /Users/richardpak/CLionProjects/test/Story.cpp
+CMakeFiles/CS210PA2.dir/Story.cpp.o: /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/Story.cpp
 CMakeFiles/CS210PA2.dir/Story.cpp.o: CMakeFiles/CS210PA2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/richardpak/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CS210PA2.dir/Story.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CS210PA2.dir/Story.cpp.o -MF CMakeFiles/CS210PA2.dir/Story.cpp.o.d -o CMakeFiles/CS210PA2.dir/Story.cpp.o -c /Users/richardpak/CLionProjects/test/Story.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CS210PA2.dir/Story.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CS210PA2.dir/Story.cpp.o -MF CMakeFiles/CS210PA2.dir/Story.cpp.o.d -o CMakeFiles/CS210PA2.dir/Story.cpp.o -c /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/Story.cpp
 
 CMakeFiles/CS210PA2.dir/Story.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CS210PA2.dir/Story.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/richardpak/CLionProjects/test/Story.cpp > CMakeFiles/CS210PA2.dir/Story.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/Story.cpp > CMakeFiles/CS210PA2.dir/Story.cpp.i
 
 CMakeFiles/CS210PA2.dir/Story.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CS210PA2.dir/Story.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/richardpak/CLionProjects/test/Story.cpp -o CMakeFiles/CS210PA2.dir/Story.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/Story.cpp -o CMakeFiles/CS210PA2.dir/Story.cpp.s
 
 # Object files for target CS210PA2
 CS210PA2_OBJECTS = \
-"CMakeFiles/CS210PA2.dir/main.cpp.o" \
+"CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o" \
 "CMakeFiles/CS210PA2.dir/Story.cpp.o"
 
 # External object files for target CS210PA2
 CS210PA2_EXTERNAL_OBJECTS =
 
-CS210PA2: CMakeFiles/CS210PA2.dir/main.cpp.o
+CS210PA2: CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o
 CS210PA2: CMakeFiles/CS210PA2.dir/Story.cpp.o
 CS210PA2: CMakeFiles/CS210PA2.dir/build.make
 CS210PA2: CMakeFiles/CS210PA2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/richardpak/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CS210PA2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CS210PA2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CS210PA2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/CS210PA2.dir/clean:
 .PHONY : CMakeFiles/CS210PA2.dir/clean
 
 CMakeFiles/CS210PA2.dir/depend:
-	cd /Users/richardpak/CLionProjects/test/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/richardpak/CLionProjects/test /Users/richardpak/CLionProjects/test /Users/richardpak/CLionProjects/test/cmake-build-debug /Users/richardpak/CLionProjects/test/cmake-build-debug /Users/richardpak/CLionProjects/test/cmake-build-debug/CMakeFiles/CS210PA2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/richardpak/CLionProjects/programmingassignment2RichardP1627 /Users/richardpak/CLionProjects/programmingassignment2RichardP1627 /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug /Users/richardpak/CLionProjects/programmingassignment2RichardP1627/cmake-build-debug/CMakeFiles/CS210PA2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CS210PA2.dir/depend
 

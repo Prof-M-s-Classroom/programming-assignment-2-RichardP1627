@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o"
+  "CMakeFiles/CS210PA2.dir/Pak_RichardPak/main.cpp.o.d"
   "CMakeFiles/CS210PA2.dir/Story.cpp.o"
   "CMakeFiles/CS210PA2.dir/Story.cpp.o.d"
-  "CMakeFiles/CS210PA2.dir/main.cpp.o"
-  "CMakeFiles/CS210PA2.dir/main.cpp.o.d"
   "CS210PA2"
   "CS210PA2.pdb"
 )
