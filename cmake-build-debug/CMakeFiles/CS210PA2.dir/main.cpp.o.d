@@ -1,5 +1,5 @@
 CMakeFiles/CS210PA2.dir/main.cpp.o: \
-  /Users/richardpak/CLionProjects/programming-assignment-2-RichardP1627/main.cpp \
+  /Users/richardpak/CLionProjects/programmingassignment2-RichardP1627/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -731,7 +731,7 @@ CMakeFiles/CS210PA2.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/richardpak/CLionProjects/programming-assignment-2-RichardP1627/./GameDecisionTree.h \
+  /Users/richardpak/CLionProjects/programmingassignment2-RichardP1627/./GameDecisionTree.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -751,5 +751,5 @@ CMakeFiles/CS210PA2.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
-  /Users/richardpak/CLionProjects/programming-assignment-2-RichardP1627/./Node.h \
-  /Users/richardpak/CLionProjects/programming-assignment-2-RichardP1627/./Story.h
+  /Users/richardpak/CLionProjects/programmingassignment2-RichardP1627/./Node.h \
+  /Users/richardpak/CLionProjects/programmingassignment2-RichardP1627/./Story.h

@@ -1,6 +1,6 @@
 CMakeFiles/CS210PA2.dir/Story.cpp.o: \
-  /Users/richardpak/CLionProjects/programming-assignment-2-RichardP1627/Story.cpp \
-  /Users/richardpak/CLionProjects/programming-assignment-2-RichardP1627/./Story.h \
+  /Users/richardpak/CLionProjects/programmingassignment2-RichardP1627/Story.cpp \
+  /Users/richardpak/CLionProjects/programmingassignment2-RichardP1627/./Story.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h \

@@ -12,17 +12,6 @@ template <typename T>
 class GameDecisionTree {
 private:
     Node<T> *root;
-    int playerChoice;
-    // std::vector<bool> isDeleted;
-
-
-    void clear(Node<Story>* node) {
-        if (node != nullptr) {
-            clear(node->left);
-            clear(node->right);
-            delete node;
-        }
-    }
 
 public:
     //Node<T> *root;
@@ -42,26 +31,28 @@ public:
 
         while (std::getline(file, line)) {
             std::stringstream ss(line);
-            std::string token;
             Story story;
 
-            if (std::getline(ss, token, delimiter)) {
-                story.eventNumber = std::stoi(token);
+            if (std::getline(ss, line, delimiter)) {
+                story.eventNumber = std::stoi(line);
             }
-            if (std::getline(ss, token, delimiter)) {
-                story.description = token;
+            if (std::getline(ss, line, delimiter)) {
+                story.description = line;
             }
-            if (std::getline(ss, token, delimiter)) {
-                story.leftEventNumber = std::stoi(token);
+            if (std::getline(ss, line, delimiter)) {
+                story.leftEventNumber = std::stoi(line);
             }
-            if (std::getline(ss, token)) {
-                story.rightEventNumber = std::stoi(token);
+            if (std::getline(ss, line)) {
+                story.rightEventNumber = std::stoi(line);
             }
             Node<Story> *newNode = new Node<Story>(story);
             storyList.push_back(newNode);
         }
         for (int i = 0; i < storyList.size(); i++) {
             Node<Story> *currNode = storyList[i];
+            if (i == 0) {
+                root = currNode;
+            }
             if (currNode != nullptr) {
                 if (currNode -> data.leftEventNumber != -1) {
                     int leftEventNumber = currNode -> data.leftEventNumber;
@@ -73,7 +64,6 @@ public:
                 }
             }
         }
-        root = storyList[0];
         file.close();
     }
 
@@ -84,22 +74,23 @@ public:
             return;
         }
         playGameRecursive(root);
-        cout << "Congratulations! You have completed the game! You can play again with different choices!" << endl;
+        cout << "You have completed the game! You can play again with different choices!" << endl;
     }
     void playGameRecursive(Node<Story> *currNode) {
+        int playerChoice;
         std::cout << currNode -> data.description << std::endl;
         std::cout << "Enter your choice: " << std::endl;
         std::cin >> playerChoice;
         if (playerChoice == -1) {
             return;
         }
-        else if (playerChoice != currNode -> left -> data.leftEventNumber && playerChoice != currNode -> right -> data.rightEventNumber) {
+        else if (playerChoice != currNode -> data.leftEventNumber && playerChoice != currNode -> data.rightEventNumber) {
             cout << "Please enter one of the two choices!";
             playGameRecursive(currNode);
             return;
         }
         else {
-            if (playerChoice == currNode -> left -> data.eventNumber) {
+            if (playerChoice == currNode -> data.leftEventNumber) {
                 currNode = currNode -> left;
             }
             else {
@@ -107,11 +98,6 @@ public:
             }
             playGameRecursive(currNode);
         }
-
-    }
-    //destructor
-    ~GameDecisionTree() {
-        clear(root);
     }
 };
 
