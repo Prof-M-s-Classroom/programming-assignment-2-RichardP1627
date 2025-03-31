@@ -5,6 +5,7 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
+#include <limits>
 #include "Node.h"
 #include "Story.h"
 
@@ -81,6 +82,10 @@ public:
         std::cout << currNode -> data.description << std::endl;
         std::cout << "Enter your choice: " << std::endl;
         std::cin >> playerChoice;
+        if (std::cin.fail()) {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        }
         if (playerChoice == -1) {
             return;
         }
